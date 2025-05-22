@@ -11,11 +11,11 @@ function App() {
 
   useEffect(() => {
     // Change to false to use production or sandbox production environment
-    const isDevEnvironment = true;
+    const isDevEnvironment = false;
 
     const fetchToken = async () => {
       // Replace with your own Person ID. It should begin with "person_".
-      const personId = "<your-person-id>";
+      const personId = "person_b4bfed96-6852-416c-9bec-5ae75de5b21c";
 
       // Fetch Parafin token from server
       const response = await axios.get(
@@ -30,7 +30,7 @@ function App() {
   });
 
   const onOptIn = async () => ({
-    businessExternalId: "<your-external-business-id>",
+    businessExternalId: "business_b1fab3ad-1026-4134-84e8-13b459066b45",
     legalBusinessName: "Hearty Kitchens LLC",
     dbaName: "Hearty Kitchens",
     ownerFirstName: "Ralph",
