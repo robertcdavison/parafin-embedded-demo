@@ -15,7 +15,7 @@ function App() {
 
     const fetchToken = async () => {
       // Replace with your own Person ID. It should begin with "person_".
-      const personId = "person_b4bfed96-6852-416c-9bec-5ae75de5b21c";
+      const personId = "person_a5eb34d5-9e48-4d15-bca2-7b2c872129ba";
 
       // Fetch Parafin token from server
       const response = await axios.get(
